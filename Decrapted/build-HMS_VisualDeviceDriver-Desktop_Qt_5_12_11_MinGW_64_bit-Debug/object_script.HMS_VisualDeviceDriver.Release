@@ -1,0 +1,11 @@
+release/ADS1256.o
+release/DEV_Config.o
+release/main.o
+release/visualdevicedriver.o
+release/adcform.o
+release/serialcfg.o
+release/treadreadadc.o
+release/moc_visualdevicedriver.o
+release/moc_adcform.o
+release/moc_serialcfg.o
+release/moc_treadreadadc.o

@@ -1,0 +1,14 @@
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\obj\Debug\pilot.Communication.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\pilot.Communication.exe
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\pilot.Communication.pdb
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\obj\Debug\pilot.Communication.exe
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\obj\Debug\pilot.Communication.pdb
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\obj\Debug\pilot.Communication.csproj.CopyComplete
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\obj\Debug\pilot.Communication.csproj.AssemblyReference.cache
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\NModbus.dll
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\NModbus.Serial.dll
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\NModbus.xml
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\NModbus.Serial.pdb
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\NModbus.Serial.xml
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.Communication\bin\Debug\System.Diagnostics.DiagnosticSource.xml

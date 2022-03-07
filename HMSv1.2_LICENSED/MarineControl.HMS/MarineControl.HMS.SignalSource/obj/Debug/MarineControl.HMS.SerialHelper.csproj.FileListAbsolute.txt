@@ -1,0 +1,15 @@
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\bin\Debug\MarineControl.HMS.SignalSourxe.exe.config
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\bin\Debug\MarineControl.HMS.SignalSourxe.exe.manifest
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\bin\Debug\MarineControl.HMS.SignalSourxe.application
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\bin\Debug\MarineControl.HMS.SignalSourxe.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\bin\Debug\MarineControl.HMS.SignalSourxe.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SignalSourxe.Properties.Resources.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.Communiction.SerialForm.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SerialHelper.csproj.GenerateResource.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SerialHelper.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SignalSourxe.exe.manifest
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SignalSourxe.application
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SignalSourxe.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SignalSourxe.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.SerialHelper.csprojAssemblyReference.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.SignalSourxe\obj\Debug\MarineControl.HMS.Communiction.UdpForm.resources

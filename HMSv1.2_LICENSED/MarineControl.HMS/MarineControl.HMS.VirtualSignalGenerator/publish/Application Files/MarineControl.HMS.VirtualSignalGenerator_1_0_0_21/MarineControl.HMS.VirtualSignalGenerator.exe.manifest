@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MarineControl.HMS.VirtualSignalGenerator.exe" version="1.0.0.21" publicKeyToken="1aee928d8bbccd08" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="信号线.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MarineControl.HMS.VirtualSignalGenerator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MarineControl.HMS.VirtualSignalGenerator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MarineControl.HMS.VirtualSignalGenerator.exe" size="69080">
+      <assemblyIdentity name="MarineControl.HMS.VirtualSignalGenerator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>N2d0F9XfsvHcbjhkt1l3uBsgd1+PRRPRsGjBomtA+b4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MarineControl.HMS.VirtualSignalGenerator.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1NgAxCSw4ibTXzWVy7D6Rw60Qih4Dn37KvGhG5Ora/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="信号线.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cAj6bQL3AaD+Y8jqg3mRRls0DyaoLeBltyET7y+i72w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2A52QVF\dwb" issuerKeyHash="bfbdc0c256b275e9612dc2af6cdedb39a8bf8fc1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yk+eia9D+7HhMgSbfLCu1U+kluiQZR6mT87fhwVg79I=</DigestValue></Reference></SignedInfo><SignatureValue>g9RWoEeYWmH/omUaEfF2Y6lXxuAoCG9GDqkleGbUE5WVVQz11uUK391ToGih4Xh7FmN1QtTJp/jsJW+GGICluswkhAN1Qt10wppdmHscDG2zEmj8E9ZjvOqA0rLRNCnQIH9xuAMQk4/f0Zf89lmbguRXlwIqh3xwmXYLPf4dtAU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1I2ZKCKpATtPlgONxkTHVgWbZ2nWX1Fe2K9iYeNEj4d7oz2gy2PlIBPuQZ+A+g0I8UXcRR1hubKX5jHHKJdwNFvapZZ5/736TmIGQR4Mj1AdAX18p3xdkaDL8xZTFzuOvX1gG/qaL6IJZX09F4UWxB5nNwjlRYc9irAyuEXn7jk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d2ef600587dfce4fa61e6590e896a44fd5aeb07c9b0432e1b1fb43af899e4fca" Description="" Url=""><as:assemblyIdentity name="MarineControl.HMS.VirtualSignalGenerator.exe" version="1.0.0.21" publicKeyToken="1aee928d8bbccd08" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2A52QVF\dwb</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Q3PjWazMihD2Qh9XWZuIF1kSG8IRcCT9sDRycowoKVg=</DigestValue></Reference></SignedInfo><SignatureValue>ajsY2goDpHiDg7sdKoIWjP3Unlx+Honwo7kCo6D5cL+YaSwl0UJOd7H6pZwk1+1198RRkXi86NQI41hh9SxvQPOaQu7+v1QZFU7C0+7eGT/xKNsBDj4azIpRi6RpQnmGY9NjrsKcgt8CgVrQkK47Y5i0Y4IRwAoNQZOzVeEZXpw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1I2ZKCKpATtPlgONxkTHVgWbZ2nWX1Fe2K9iYeNEj4d7oz2gy2PlIBPuQZ+A+g0I8UXcRR1hubKX5jHHKJdwNFvapZZ5/736TmIGQR4Mj1AdAX18p3xdkaDL8xZTFzuOvX1gG/qaL6IJZX09F4UWxB5nNwjlRYc9irAyuEXn7jk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQLCuHbj8X5plOkNNXHrs7djANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtADIAQQA1ADIAUQBWAEYAXABkAHcAYjAeFw0yMTA0MjIxMzE2MjRaFw0yMjA0MjIxOTE2MjRaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0AMgBBADUAMgBRAFYARgBcAGQAdwBiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUjZkoIqkBO0+WA43GRMdWBZtnadZfUV7Yr2Jh40SPh3ujPaDLY+UgE+5Bn4D6DQjxRdxFHWG5spfmMccol3A0W9qllnn/vfpOYgZBHgyPUB0BfXynfF2RoMvzFlMXO469fWAb+povogllfT0XhRbEHmc3COVFhz2KsDK4RefuOQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALgCYfzDyC9swzQKuWGWhFfcr+cD6d8FJ48a5M7iMpYYd5eD3RCWmZUTzfhDTQVeZuNsEnt5wbDV5L8V9hw5VN5N61lHb+LnmQj05SZDcwGsfwRaN2Sbc8ex0aB3iJpLviwfI1Ce3UICWOJdg1SX/7yYl9L0GyfgiNbAOklVqCkI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

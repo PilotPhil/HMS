@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Ubuntu.qss</file>
+        <file>AMOLED.qss</file>
+        <file>Aqua.qss</file>
+        <file>MacOS.qss</file>
+    </qresource>
+</RCC>

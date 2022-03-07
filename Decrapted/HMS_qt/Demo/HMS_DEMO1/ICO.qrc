@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ico/cancel.png</file>
+        <file>ico/delete.png</file>
+        <file>ico/less.png</file>
+        <file>ico/more.png</file>
+        <file>ico/ok.png</file>
+        <file>ico/refresh.png</file>
+        <file>ico/edit.png</file>
+        <file>ico/sort.png</file>
+        <file>ico/serial.png</file>
+        <file>ico/UDP.png</file>
+        <file>ico/serial_disable .png</file>
+        <file>ico/udp_disable.png</file>
+    </qresource>
+</RCC>

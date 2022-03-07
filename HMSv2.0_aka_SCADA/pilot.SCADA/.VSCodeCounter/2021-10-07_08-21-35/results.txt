@@ -1,0 +1,54 @@
+Date : 2021-10-07 08:21:35
+Directory : e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer
+Total : 22 files,  33127 codes, 74 comments, 128 blanks, all 33329 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| XML      |         15 |     33,025 |          0 |         98 |     33,123 |
+| C#       |          7 |        102 |         74 |         30 |        206 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                         |         22 |     33,127 |         74 |        128 |     33,329 |
+| Properties                                                                                                                |          1 |         15 |         17 |          5 |         37 |
+| bin                                                                                                                       |         14 |     32,816 |          0 |         98 |     32,914 |
+| bin\Debug                                                                                                                 |          7 |     16,408 |          0 |         49 |     16,457 |
+| bin\Release                                                                                                               |          7 |     16,408 |          0 |         49 |     16,457 |
+| obj                                                                                                                       |          3 |          9 |          3 |          3 |         15 |
+| obj\Debug                                                                                                                 |          2 |          6 |          2 |          2 |         10 |
+| obj\Release                                                                                                               |          1 |          3 |          1 |          1 |          5 |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                  | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\DataFormat.cs                                                  | C#       |         14 |         14 |          5 |         33 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\IDataBuffer.cs                                                 | C#       |         11 |         20 |          4 |         35 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\Properties\AssemblyInfo.cs                                     | C#       |         15 |         17 |          5 |         37 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\RelatedDataBuffer.cs                                           | C#       |         53 |         20 |         13 |         86 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Debug\GalaSoft.MvvmLight.Extras.xml                        | XML      |        465 |          0 |          1 |        466 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Debug\GalaSoft.MvvmLight.Platform.xml                      | XML      |        350 |          0 |          1 |        351 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Debug\GalaSoft.MvvmLight.xml                               | XML      |      1,812 |          0 |          1 |      1,813 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Debug\NModbus.Serial.xml                                   | XML      |         13 |          0 |          1 |         14 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Debug\NModbus.xml                                          | XML      |      2,039 |          0 |          3 |      2,042 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Debug\Newtonsoft.Json.xml                                  | XML      |     11,305 |          0 |          1 |     11,306 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Debug\System.Diagnostics.DiagnosticSource.xml              | XML      |        424 |          0 |         41 |        465 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Release\GalaSoft.MvvmLight.Extras.xml                      | XML      |        465 |          0 |          1 |        466 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Release\GalaSoft.MvvmLight.Platform.xml                    | XML      |        350 |          0 |          1 |        351 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Release\GalaSoft.MvvmLight.xml                             | XML      |      1,812 |          0 |          1 |      1,813 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Release\NModbus.Serial.xml                                 | XML      |         13 |          0 |          1 |         14 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Release\NModbus.xml                                        | XML      |      2,039 |          0 |          3 |      2,042 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Release\Newtonsoft.Json.xml                                | XML      |     11,305 |          0 |          1 |     11,306 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\bin\Release\System.Diagnostics.DiagnosticSource.xml            | XML      |        424 |          0 |         41 |        465 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\obj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs   | C#       |          3 |          1 |          1 |          5 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs   | C#       |          3 |          1 |          1 |          5 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs | C#       |          3 |          1 |          1 |          5 |
+| e:\OneDrive\Gitee\pilot.SCADA\pilot.SCADA\pilot.DataBuffer\pilot.DataBuffer.csproj                                        | XML      |        209 |          0 |          0 |        209 |
+| Total                                                                                                                     |          |     33,127 |         74 |        128 |     33,329 |
++---------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

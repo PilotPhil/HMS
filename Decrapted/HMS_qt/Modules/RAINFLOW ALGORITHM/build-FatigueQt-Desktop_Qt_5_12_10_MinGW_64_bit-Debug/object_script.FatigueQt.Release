@@ -1,0 +1,12 @@
+release/main.o
+release/fatigue.o
+release/mychart.o
+release/mytable.o
+release/docsv.o
+release/SN_FATIGUE.o
+release/qrc_res.o
+release/moc_fatigue.o
+release/moc_mychart.o
+release/moc_mytable.o
+release/moc_docsv.o
+release/moc_SN_FATIGUE.o

@@ -1,0 +1,11 @@
+debug/ADS1256.o
+debug/DEV_Config.o
+debug/main.o
+debug/visualdevicedriver.o
+debug/adcform.o
+debug/serialcfg.o
+debug/treadreadadc.o
+debug/moc_visualdevicedriver.o
+debug/moc_adcform.o
+debug/moc_serialcfg.o
+debug/moc_treadreadadc.o

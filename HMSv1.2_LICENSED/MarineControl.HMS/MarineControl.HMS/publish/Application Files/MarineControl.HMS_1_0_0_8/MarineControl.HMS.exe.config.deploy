@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <!--声明了一个配置节它的名字叫Test1，类型为SingleTagSectionHandler-->
+    <section name="currentUser" type="System.Configuration.DictionarySectionHandler"/>
+    
+    <sectionGroup name="sensorGroup">
+      <section name="sensor2cfg" type="System.Configuration.DictionarySectionHandler"/>
+      <section name="sensor1cfg" type="System.Configuration.DictionarySectionHandler"/>
+      <section name="sensor3cfg" type="System.Configuration.DictionarySectionHandler"/>
+      <section name="sensor4cfg" type="System.Configuration.DictionarySectionHandler"/>
+      <section name="sensor5cfg" type="System.Configuration.DictionarySectionHandler"/>
+    </sectionGroup>
+    
+  </configSections>
+
+  <currentUser>
+    <add key="user" value="未登录" />
+    <add key="can_db" value="0" />
+  </currentUser>
+
+  <sensorGroup>
+    <sensor1cfg>
+      <add key="id" value="1" />
+      <add key="type" value="strain" />
+      <add key="name" value="sensor1" />
+      <add key="location" value="fd12" />
+
+      <add key="interval_long" value="1"/>
+      <add key="interval_short" value="1"/>
+    </sensor1cfg>
+
+    <sensor2cfg>
+      <add key="id" value="2"/>
+      <add key="type" value="strain"/>
+      <add key="name" value="sensor2" />
+      <add key="location" value="hg65"/>
+
+      <add key="interval_long" value="1"/>
+      <add key="interval_short" value="1"/>
+    </sensor2cfg>
+
+    <sensor3cfg>
+      <add key="id" value="3"/>
+      <add key="type" value="strain"/>
+      <add key="name" value="sensor3" />
+      <add key="location" value="uy34"/>
+
+      <add key="interval_long" value="1"/>
+      <add key="interval_short" value="1"/>
+    </sensor3cfg>
+
+    <sensor4cfg>
+      <add key="id" value="4"/>
+      <add key="type" value="strain"/>
+      <add key="name" value="sensor4" />
+      <add key="location" value="jh51"/>
+
+      <add key="interval_long" value="1"/>
+      <add key="interval_short" value="1"/>
+    </sensor4cfg>
+
+    <sensor5cfg>
+      <add key="id5" value="5"/>
+      <add key="type" value="strain"/>
+      <add key="name" value="sensor5" />
+      <add key="location" value="ki88"/>
+
+      <add key="interval_long" value="1"/>
+      <add key="interval_short" value="1"/>
+    </sensor5cfg>
+  </sensorGroup>
+  
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+  
+</configuration>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/pic">
+        <file>serial.png</file>
+        <file>backPic.png</file>
+    </qresource>
+</RCC>

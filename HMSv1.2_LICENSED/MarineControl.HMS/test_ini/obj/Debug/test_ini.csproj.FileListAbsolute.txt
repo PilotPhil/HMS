@@ -1,0 +1,9 @@
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\bin\Debug\test_ini.exe.config
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\bin\Debug\test_ini.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\bin\Debug\test_ini.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\obj\Debug\test_ini.csprojAssemblyReference.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\obj\Debug\test_ini.Properties.Resources.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\obj\Debug\test_ini.csproj.GenerateResource.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\obj\Debug\test_ini.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\obj\Debug\test_ini.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_ini\obj\Debug\test_ini.pdb

@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilot.SCADA", "pilot.SCADA\pilot.SCADA.csproj", "{A8BB1140-6CDF-4ACB-90CB-11EC6221386D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilot.DAL", "pilot.DAL\pilot.DAL.csproj", "{2F493361-A36E-498A-BD84-5D3E06C50073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilot.DataBuffer", "pilot.DataBuffer\pilot.DataBuffer.csproj", "{941C9EE7-3041-4473-8D27-7F06329EC233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilot.ManagedTasks", "pilot.ManagedTasks\pilot.ManagedTasks.csproj", "{C050643A-46A9-4A5B-91F2-99C49647784C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilot.ProjConfiguration", "pilot.ProjConfiguration\pilot.ProjConfiguration.csproj", "{B903F45C-DA7E-4B6E-A7EA-61D3BF40B393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilot.SlaveComputerEmulator", "pilot.SlaveComputerEmulator\pilot.SlaveComputerEmulator.csproj", "{B1AA6AA4-2721-4E9A-ACB3-F6DB750AB81B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HMS Setup", "HMS SetUp\HMS SetUp.vdproj", "{F6411C62-97BE-4682-AA27-23862D650220}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8BB1140-6CDF-4ACB-90CB-11EC6221386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BB1140-6CDF-4ACB-90CB-11EC6221386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BB1140-6CDF-4ACB-90CB-11EC6221386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BB1140-6CDF-4ACB-90CB-11EC6221386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F493361-A36E-498A-BD84-5D3E06C50073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F493361-A36E-498A-BD84-5D3E06C50073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F493361-A36E-498A-BD84-5D3E06C50073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F493361-A36E-498A-BD84-5D3E06C50073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941C9EE7-3041-4473-8D27-7F06329EC233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941C9EE7-3041-4473-8D27-7F06329EC233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941C9EE7-3041-4473-8D27-7F06329EC233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941C9EE7-3041-4473-8D27-7F06329EC233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C050643A-46A9-4A5B-91F2-99C49647784C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C050643A-46A9-4A5B-91F2-99C49647784C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C050643A-46A9-4A5B-91F2-99C49647784C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C050643A-46A9-4A5B-91F2-99C49647784C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B903F45C-DA7E-4B6E-A7EA-61D3BF40B393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B903F45C-DA7E-4B6E-A7EA-61D3BF40B393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B903F45C-DA7E-4B6E-A7EA-61D3BF40B393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B903F45C-DA7E-4B6E-A7EA-61D3BF40B393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AA6AA4-2721-4E9A-ACB3-F6DB750AB81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AA6AA4-2721-4E9A-ACB3-F6DB750AB81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AA6AA4-2721-4E9A-ACB3-F6DB750AB81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AA6AA4-2721-4E9A-ACB3-F6DB750AB81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6411C62-97BE-4682-AA27-23862D650220}.Debug|Any CPU.ActiveCfg = Debug
+		{F6411C62-97BE-4682-AA27-23862D650220}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35577D9F-FA24-4272-8A00-B6319D142498}
+	EndGlobalSection
+EndGlobal

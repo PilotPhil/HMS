@@ -1,0 +1,11 @@
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Debug\test_barChart.exe.config
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Debug\test_barChart.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Debug\test_barChart.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\test_barChart.csprojAssemblyReference.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\test_barChart.Form1.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\test_barChart.Properties.Resources.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\test_barChart.csproj.GenerateResource.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\test_barChart.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\test_barChart.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\test_barChart.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Debug\MarineControl.HMS.Plot.BarChart.resources

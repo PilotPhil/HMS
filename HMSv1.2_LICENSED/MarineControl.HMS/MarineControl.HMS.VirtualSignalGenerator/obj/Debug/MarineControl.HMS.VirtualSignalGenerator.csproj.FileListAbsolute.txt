@@ -1,0 +1,15 @@
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\bin\Debug\MarineControl.HMS.VirtualSignalGenerator.exe.config
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\bin\Debug\MarineControl.HMS.VirtualSignalGenerator.exe.manifest
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\bin\Debug\MarineControl.HMS.VirtualSignalGenerator.application
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\bin\Debug\MarineControl.HMS.VirtualSignalGenerator.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\bin\Debug\MarineControl.HMS.VirtualSignalGenerator.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.Form1.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.Properties.Resources.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.csproj.GenerateResource.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.exe.manifest
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.application
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.Communiction.UdpForm.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\MarineControl.HMS.VirtualSignalGenerator\obj\Debug\MarineControl.HMS.VirtualSignalGenerator.csprojAssemblyReference.cache

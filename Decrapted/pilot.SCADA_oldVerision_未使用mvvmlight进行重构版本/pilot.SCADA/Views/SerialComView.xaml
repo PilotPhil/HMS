@@ -1,0 +1,58 @@
+﻿<hc:Window x:Class="pilot.SCADA.Views.SerialComView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        Title="串口设置" Height="280" Width="200" FontFamily="Microsoft YaHei" FontWeight="ExtraLight"
+        WindowStartupLocation="CenterScreen" x:Name="thisWindow" Background="White"
+        ResizeMode="NoResize">
+
+
+    <Grid Margin="5">
+        <!--串口配置-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="端口" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="Port" Width="120" Height="20" Margin="5"
+                                ItemsSource="{Binding SerialComParamModel.PortList}"
+                                SelectedItem="{Binding SerialComParamModel.PortName}"/>
+
+        <TextBlock Text="波特率" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ComboBox Grid.Row="1" Grid.Column="1" x:Name="BaudRate" Width="120" Height="20" Margin="5"
+                                ItemsSource="{Binding SerialComParamModel.BaudRateList}"
+                              SelectedItem="{Binding SerialComParamModel.BaudRate}"/>
+
+        <TextBlock Text="数据位" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ComboBox Grid.Row="2" Grid.Column="1" x:Name="DataBit" Width="120" Height="20" Margin="5"
+                                ItemsSource="{Binding SerialComParamModel.DataBitList}"
+                              SelectedItem="{Binding SerialComParamModel.DataBit}"/>
+
+        <TextBlock Text="校验位" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ComboBox Grid.Row="3" Grid.Column="1" x:Name="Parity" Width="120" Height="20" Margin="5"
+                                ItemsSource="{Binding SerialComParamModel.ParityList}"
+                              SelectedItem="{Binding SerialComParamModel.Parity}"/>
+
+        <TextBlock Text="停止位" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ComboBox Grid.Row="4" Grid.Column="1" x:Name="StopBit" Width="120" Height="20" Margin="5"
+                                ItemsSource="{Binding SerialComParamModel.StopBitList}"
+                              SelectedItem="{Binding SerialComParamModel.StopBit}"/>
+
+        <Button Content="确定" Grid.Row="5" Grid.Column="1" Margin="5" Width="120" Height="30"
+                            Command="{Binding ConfirmCommand}"
+                            CommandParameter="{Binding ElementName=thisWindow}"/>
+    </Grid>
+</hc:Window>

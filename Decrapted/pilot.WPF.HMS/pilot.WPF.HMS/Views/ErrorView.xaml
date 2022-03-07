@@ -1,0 +1,49 @@
+﻿<Window x:Class="pilot.HMS.Views.ErrorView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pilot.HMS.Views"
+        mc:Ignorable="d"
+        Title="错误" Height="280" Width="250" FontFamily="Microsoft YaHei" FontWeight="ExtraLight"
+        WindowStyle="None" AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen" Background="{x:Null}">
+
+    <Border Margin="5" Background="White" CornerRadius="10">
+        <Border.Effect>
+            <DropShadowEffect Color="Gray" ShadowDepth="0" BlurRadius="5" Opacity="0.3" Direction="0"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="5">
+                <TextBlock Text="&#xe686;" Foreground="red" FontSize="25" FontFamily="../Assets/ttf/#iconfont"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="错误" Foreground="red" FontSize="20" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Margin="10" Grid.Row="1">
+                <TextBlock  Text="{Binding ErrorMsg}" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="25"
+                        TextWrapping="Wrap"/>
+            </StackPanel>
+
+
+            <Button Grid.Row="2"  Height="40" Background="White"  Content="确定"
+            Click="OkButton_Click" FontSize="20">
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border BorderThickness="0,1,0,0" CornerRadius="0,0,10,10" BorderBrush="Gray">
+                            <ContentPresenter Content="{TemplateBinding ContentControl.Content}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,11 @@
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\obj\Debug\UDP_TEST2.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\bin\Debug\UDP_TEST2.exe.config
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\bin\Debug\UDP_TEST2.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\bin\Debug\UDP_TEST2.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\bin\Debug\LiteNetLib.dll
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\bin\Debug\LiteNetLib.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\bin\Debug\LiteNetLib.xml
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\obj\Debug\UDP_TEST2.csproj.CopyComplete
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\obj\Debug\UDP_TEST2.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\obj\Debug\UDP_TEST2.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\UDP_TEST2\obj\Debug\UDP_TEST2.csprojAssemblyReference.cache
