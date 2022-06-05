@@ -1,0 +1,12 @@
+debug/main.o
+debug/fatigue.o
+debug/mychart.o
+debug/mytable.o
+debug/docsv.o
+debug/SN_FATIGUE.o
+debug/qrc_res.o
+debug/moc_fatigue.o
+debug/moc_mychart.o
+debug/moc_mytable.o
+debug/moc_docsv.o
+debug/moc_SN_FATIGUE.o

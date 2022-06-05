@@ -1,0 +1,17 @@
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\test_barChart.exe.config
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\test_barChart.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\test_barChart.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\HZH_Controls.dll
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\OxyPlot.dll
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\OxyPlot.WindowsForms.dll
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\OxyPlot.xml
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\bin\Release\OxyPlot.WindowsForms.xml
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\test_Chart.csprojAssemblyReference.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\test_barChart.Properties.Resources.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\MarineControl.HMS.Plot.PredictChart.resources
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\test_Chart.csproj.GenerateResource.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\test_Chart.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\test_Chart.csproj.CopyComplete
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\test_barChart.exe
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\test_barChart.pdb
+D:\Gitee\HMS_DotNet\MarineControl.HMS\test_barChart\obj\Release\MarineControl.HMS.Plot.Chart.resources

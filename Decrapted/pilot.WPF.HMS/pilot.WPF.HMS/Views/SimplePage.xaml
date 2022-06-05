@@ -1,0 +1,294 @@
+﻿<Page x:Class="pilot.HMS.Views.SimplePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pilot.HMS.Views"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="1250" d:DesignWidth="2140"
+      Title="SimplePage">
+
+    <ScrollViewer>
+        <Border CornerRadius="0,0,10,0" Background="White">
+
+            <Grid Background="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <GroupBox Header="传感器简视" Margin="20" Grid.Row="0">
+                    <WrapPanel>
+                        <Border CornerRadius="10" Background="White" Margin="10"
+                        Width="200" Height="200">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <lvc:CartesianChart x:Name="liveChart1">
+                                    <lvc:CartesianChart.Series>
+                                        <lvc:LineSeries  Stroke="#f7d17a" PointGeometrySize="0" Values="100,200,-238,23,98,123"/>
+                                    </lvc:CartesianChart.Series>
+
+                                    <lvc:CartesianChart.AxisY>
+                                        <lvc:Axis MinValue="-300" MaxValue="300" ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisY>
+
+                                    <lvc:CartesianChart.AxisX>
+                                        <lvc:Axis ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisX>
+                                </lvc:CartesianChart>
+
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                                    <Border Background="#EDFAF0" Width="30" Height="30" CornerRadius="5">
+                                        <TextBlock Text="&#xe68f;" Foreground="#7AD795" FontFamily="../Assets/ttf/#iconfont"
+                           FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+
+                                    <TextBlock Text="Value" Foreground="#7AD795" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                    <Border Width="25" Height="25" CornerRadius="5" Background="#fff5eb" Margin="5,0">
+                                        <TextBlock Text="&#xe708;" FontFamily="../Assets/ttf/#iconfont" Foreground="#febe55" FontSize="20"
+                                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Orientation="Vertical">
+                                        <TextBlock Text="应力测点一" Foreground="#64686e"/>
+                                        <TextBlock Text="25Mpa" Foreground="#64686e"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                            </Grid>
+                        </Border>
+
+                        <Border CornerRadius="10" Background="White" Margin="10"
+                        Width="200" Height="200">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <lvc:CartesianChart x:Name="liveChart2">
+                                    <lvc:CartesianChart.Series>
+                                        <lvc:LineSeries  Stroke="#f7d17a" PointGeometrySize="0" Values="100,200,-238,23,98,123"/>
+                                    </lvc:CartesianChart.Series>
+
+                                    <lvc:CartesianChart.AxisY>
+                                        <lvc:Axis MinValue="-300" MaxValue="300" ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisY>
+
+                                    <lvc:CartesianChart.AxisX>
+                                        <lvc:Axis ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisX>
+                                </lvc:CartesianChart>
+
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                                    <Border Background="#EDFAF0" Width="30" Height="30" CornerRadius="5">
+                                        <TextBlock Text="&#xe68f;" Foreground="#7AD795" FontFamily="../Assets/ttf/#iconfont"
+                           FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+
+                                    <TextBlock Text="Value" Foreground="#7AD795" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                    <Border Width="25" Height="25" CornerRadius="5" Background="#fff5eb" Margin="5,0">
+                                        <TextBlock Text="&#xe708;" FontFamily="../Assets/ttf/#iconfont" Foreground="#febe55" FontSize="20"
+                                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Orientation="Vertical">
+                                        <TextBlock Text="应力测点一" Foreground="#64686e"/>
+                                        <TextBlock Text="25Mpa" Foreground="#64686e"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                            </Grid>
+                        </Border>
+
+                        <Border CornerRadius="10" Background="White" Margin="10"
+                        Width="200" Height="200">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <lvc:CartesianChart x:Name="liveChart3">
+                                    <lvc:CartesianChart.Series>
+                                        <lvc:LineSeries  Stroke="#f7d17a" PointGeometrySize="0" Values="100,200,-238,23,98,123"/>
+                                    </lvc:CartesianChart.Series>
+
+                                    <lvc:CartesianChart.AxisY>
+                                        <lvc:Axis MinValue="-300" MaxValue="300" ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisY>
+
+                                    <lvc:CartesianChart.AxisX>
+                                        <lvc:Axis ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisX>
+                                </lvc:CartesianChart>
+
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                                    <Border Background="#EDFAF0" Width="30" Height="30" CornerRadius="5">
+                                        <TextBlock Text="&#xe68f;" Foreground="#7AD795" FontFamily="../Assets/ttf/#iconfont"
+                           FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+
+                                    <TextBlock Text="Value" Foreground="#7AD795" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                    <Border Width="25" Height="25" CornerRadius="5" Background="#fff5eb" Margin="5,0">
+                                        <TextBlock Text="&#xe708;" FontFamily="../Assets/ttf/#iconfont" Foreground="#febe55" FontSize="20"
+                                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Orientation="Vertical">
+                                        <TextBlock Text="应力测点一" Foreground="#64686e"/>
+                                        <TextBlock Text="25Mpa" Foreground="#64686e"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                            </Grid>
+                        </Border>
+
+                        <Border CornerRadius="10" Background="White" Margin="10"
+                        Width="200" Height="200">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <lvc:CartesianChart x:Name="liveChart4">
+                                    <lvc:CartesianChart.Series>
+                                        <lvc:LineSeries  Stroke="#f7d17a" PointGeometrySize="0" Values="100,200,-238,23,98,123"/>
+                                    </lvc:CartesianChart.Series>
+
+                                    <lvc:CartesianChart.AxisY>
+                                        <lvc:Axis MinValue="-300" MaxValue="300" ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisY>
+
+                                    <lvc:CartesianChart.AxisX>
+                                        <lvc:Axis ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisX>
+                                </lvc:CartesianChart>
+
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                                    <Border Background="#EDFAF0" Width="30" Height="30" CornerRadius="5">
+                                        <TextBlock Text="&#xe68f;" Foreground="#7AD795" FontFamily="../Assets/ttf/#iconfont"
+                           FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+
+                                    <TextBlock Text="Value" Foreground="#7AD795" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                    <Border Width="25" Height="25" CornerRadius="5" Background="#fff5eb" Margin="5,0">
+                                        <TextBlock Text="&#xe708;" FontFamily="../Assets/ttf/#iconfont" Foreground="#febe55" FontSize="20"
+                                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Orientation="Vertical">
+                                        <TextBlock Text="应力测点一" Foreground="#64686e"/>
+                                        <TextBlock Text="25Mpa" Foreground="#64686e"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                            </Grid>
+                        </Border>
+
+                        <Border CornerRadius="10" Background="White" Margin="10"
+                        Width="200" Height="200">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <lvc:CartesianChart x:Name="liveChart5">
+                                    <lvc:CartesianChart.Series>
+                                        <lvc:LineSeries  Stroke="#f7d17a" PointGeometrySize="0" Values="100,200,-238,23,98,123"/>
+                                    </lvc:CartesianChart.Series>
+
+                                    <lvc:CartesianChart.AxisY>
+                                        <lvc:Axis MinValue="-300" MaxValue="300" ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisY>
+
+                                    <lvc:CartesianChart.AxisX>
+                                        <lvc:Axis ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisX>
+                                </lvc:CartesianChart>
+
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                                    <Border Background="#EDFAF0" Width="30" Height="30" CornerRadius="5">
+                                        <TextBlock Text="&#xe68f;" Foreground="#7AD795" FontFamily="../Assets/ttf/#iconfont"
+                           FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+
+                                    <TextBlock Text="Value" Foreground="#7AD795" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                    <Border Width="25" Height="25" CornerRadius="5" Background="#fff5eb" Margin="5,0">
+                                        <TextBlock Text="&#xe708;" FontFamily="../Assets/ttf/#iconfont" Foreground="#febe55" FontSize="20"
+                                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Orientation="Vertical">
+                                        <TextBlock Text="应力测点一" Foreground="#64686e"/>
+                                        <TextBlock Text="25Mpa" Foreground="#64686e"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                            </Grid>
+                        </Border>
+
+                        <Border CornerRadius="10" Background="White" Margin="10"
+                        Width="200" Height="200">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <lvc:CartesianChart x:Name="liveChart6">
+                                    <lvc:CartesianChart.Series>
+                                        <lvc:LineSeries  Stroke="#f7d17a" PointGeometrySize="0" Values="100,200,-238,23,98,123"/>
+                                    </lvc:CartesianChart.Series>
+
+                                    <lvc:CartesianChart.AxisY>
+                                        <lvc:Axis MinValue="-300" MaxValue="300" ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisY>
+
+                                    <lvc:CartesianChart.AxisX>
+                                        <lvc:Axis ShowLabels="False"/>
+                                    </lvc:CartesianChart.AxisX>
+                                </lvc:CartesianChart>
+
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                                    <Border Background="#EDFAF0" Width="30" Height="30" CornerRadius="5">
+                                        <TextBlock Text="&#xe68f;" Foreground="#7AD795" FontFamily="../Assets/ttf/#iconfont"
+                           FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+
+                                    <TextBlock Text="Value" Foreground="#7AD795" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                    <Border Width="25" Height="25" CornerRadius="5" Background="#fff5eb" Margin="5,0">
+                                        <TextBlock Text="&#xe708;" FontFamily="../Assets/ttf/#iconfont" Foreground="#febe55" FontSize="20"
+                                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Orientation="Vertical">
+                                        <TextBlock Text="应力测点一" Foreground="#64686e"/>
+                                        <TextBlock Text="25Mpa" Foreground="#64686e"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                            </Grid>
+                        </Border>
+                    </WrapPanel>
+                </GroupBox>
+
+                <TextBlock Text="simple page" Grid.Row="1" FontSize="100"/>
+            </Grid>
+        </Border>
+    </ScrollViewer>
+
+</Page>

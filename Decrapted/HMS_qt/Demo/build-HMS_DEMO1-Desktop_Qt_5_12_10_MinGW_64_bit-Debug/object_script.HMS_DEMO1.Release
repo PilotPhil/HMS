@@ -1,0 +1,16 @@
+release/serialcfg.o
+release/myudp.o
+release/udpui.o
+release/database.o
+release/main.o
+release/hms.o
+release/sensorconfig.o
+release/sqlTable.o
+release/qrc_ICO.o
+release/moc_serialcfg.o
+release/moc_myudp.o
+release/moc_udpui.o
+release/moc_database.o
+release/moc_hms.o
+release/moc_sensorconfig.o
+release/moc_sqlTable.o

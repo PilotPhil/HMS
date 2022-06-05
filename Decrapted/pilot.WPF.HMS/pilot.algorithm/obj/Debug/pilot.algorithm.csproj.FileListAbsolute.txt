@@ -1,0 +1,5 @@
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.algorithm\bin\Debug\pilot.algorithm.pdb
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.algorithm\obj\Debug\pilot.algorithm.csproj.CoreCompileInputs.cache
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.algorithm\obj\Debug\pilot.algorithm.pdb
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.algorithm\bin\Debug\pilot.algorithm.exe
+D:\Gitee\HMS_DotNet\pilot.WPF.HMS\pilot.algorithm\obj\Debug\pilot.algorithm.exe

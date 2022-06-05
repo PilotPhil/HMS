@@ -1,0 +1,16 @@
+debug/serialcfg.o
+debug/myudp.o
+debug/udpui.o
+debug/database.o
+debug/main.o
+debug/hms.o
+debug/sensorconfig.o
+debug/sqlTable.o
+debug/qrc_ICO.o
+debug/moc_serialcfg.o
+debug/moc_myudp.o
+debug/moc_udpui.o
+debug/moc_database.o
+debug/moc_hms.o
+debug/moc_sensorconfig.o
+debug/moc_sqlTable.o
